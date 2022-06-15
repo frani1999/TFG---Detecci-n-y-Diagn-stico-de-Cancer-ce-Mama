@@ -1,0 +1,48 @@
+(venv) C:\Users\RDuser-E1\Desktop\retrain_yolo\yolov5>python detect.py --weights runs/train/exp12/weights/best.pt --img 416 --conf 0.1 --source "C:/Users/RDuser-E1/Desktop/retrain_yolo/CBIS-DDSM/test/images"
+detect: weights=['runs/train/exp12/weights/best.pt'], source=C:/Users/RDuser-E1/Desktop/retrain_yolo/CBIS-DDSM/test/images, data=data\coco128.yaml, imgsz=[416, 416], conf_thres=0.1, iou_thres=0.45, max_det=1000, device=, view_img=False, save_txt=False
+, save_conf=False, save_crop=False, nosave=False, classes=None, agnostic_nms=False, augment=False, visualize=False, update=False, project=runs\detect, name=exp, exist_ok=False, line_thickness=3, hide_labels=False, hide_conf=False, half=False, dnn=Fals
+e
+YOLOv5  v6.1-201-g9a7f289 Python-3.9.10 torch-1.8.2+cu111 CUDA:0 (NVIDIA GeForce RTX 2080 Ti, 11264MiB)
+
+Fusing layers...
+Model summary: 213 layers, 7015519 parameters, 0 gradients, 15.8 GFLOPs
+image 1/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-102616147513045377112164328153581806961_1-205_jpg.rf.18cc639aff58a0f7b93862659e3f93d9.jpg: 416x416 1 Mass, Done. (0.016s)
+image 2/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-106249827813113909612238437690120291334_1-129_jpg.rf.9788886d00f56946a7d59241e6137195.jpg: 416x416 1 Calc, Done. (0.029s)
+image 3/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-117311526211769399912345133122658800626_1-205_jpg.rf.83ac552af663fad97dd89159e2913a52.jpg: 416x416 Done. (0.017s)
+image 4/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-133839045712891657504518084412098446070_1-299_jpg.rf.6b47bd8e423e36e288ff43e7ac868543.jpg: 416x416 1 Mass, Done. (0.016s)
+image 5/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-138253052212228684202912887192816358060_1-053_jpg.rf.b5d50c6e90e0a9e102e8d182e4c65b1e.jpg: 416x416 1 Mass, Done. (0.016s)
+image 6/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-142885277611638033110611880230769163368_1-251_jpg.rf.c3543043e1974cecf3a84339854f2e7d.jpg: 416x416 1 Mass, Done. (0.016s)
+image 7/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-151178406511629586605682927950166107710_1-203_jpg.rf.33b9a92b40943dd00677ceed5f4ce523.jpg: 416x416 2 Masss, Done. (0.016s)
+image 8/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-168263165711078144037408664653348842349_1-106_jpg.rf.b8e4e77c332abf5c5fc13691140b3181.jpg: 416x416 1 Mass, Done. (0.031s)
+image 9/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-170007546712574576531170925212939732363_1-066_jpg.rf.9ced9ddfc56773b452556cec8a4d913b.jpg: 416x416 1 Calc, Done. (0.016s)
+image 10/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-17188040510851889906211235011127203952_1-024_jpg.rf.1a5f0db4d66efb2eae11bfb5bbdb3c0b.jpg: 416x416 1 Calc, Done. (0.016s)
+image 11/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-172386840512013560230074211023706864061_1-077_jpg.rf.38eb6f360d41c6f2daf69d3692717961.jpg: 416x416 1 Mass, Done. (0.016s)
+image 12/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-173221016212532651842178745932916920618_1-288_jpg.rf.6aa049fb56393abc846347582327d8e3.jpg: 416x416 1 Calc, Done. (0.016s)
+image 13/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-180869746613853192241744905213634425726_1-281_jpg.rf.03079e636d182cd2fe6f62cae985b68d.jpg: 416x416 2 Calcs, Done. (0.016s)
+image 14/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-198038869612079048331342389090875295128_1-157_jpg.rf.c846c716528f30d744b9bb9d13d81b0a.jpg: 416x416 2 Calcs, Done. (0.016s)
+image 15/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-204530857713961503742142191473708895424_1-264_jpg.rf.7074474f05cffeb6fc082776c8f76115.jpg: 416x416 1 Calc, 1 Mass, Done. (0.016s)
+image 16/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-206858401010836227702573341721302137898_1-110_jpg.rf.0b78e72acd805ae1246d57eb40f3e2f5.jpg: 416x416 5 Calcs, 1 Mass, Done. (0.016s)
+image 17/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-207726435513456082225524896262435179450_1-001_jpg.rf.d9ef2b1e902755c43b2cd008ce48a54c.jpg: 416x416 1 Mass, Done. (0.016s)
+image 18/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-215178032810458477636946646383125292016_1-009_jpg.rf.c9e0f7f5e15387469706bec8e3b7392a.jpg: 416x416 1 Mass, Done. (0.031s)
+image 19/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-283164120712051268911744006692803176756_1-114_jpg.rf.b5eca70ead4a49fc1e650fba2d9453e1.jpg: 416x416 2 Calcs, 1 Mass, Done. (0.016s)
+image 20/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-332940887511986446512688867040573314952_1-139_jpg.rf.949bce32fd7dcaa206980238d013a588.jpg: 416x416 1 Mass, Done. (0.012s)
+image 21/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-336120486712406273923832111983569913869_1-113_jpg.rf.7c3d928c90b283118acee8395b90e8ab.jpg: 416x416 1 Mass, Done. (0.011s)
+image 22/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-343795299011463113000874569464265754436_1-286_jpg.rf.e69c1c5fb92ac4952cb1964952cc2dda.jpg: 416x416 3 Masss, Done. (0.016s)
+image 23/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-358756856812756598804885462243832024866_1-216_jpg.rf.eb0e9f8c2e1d92d933fce36be6cd1b42.jpg: 416x416 1 Mass, Done. (0.016s)
+image 24/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-373282818013134453040222769932510656107_1-219_jpg.rf.f170a87b32fa5e569c965ef184790f4e.jpg: 416x416 1 Mass, Done. (0.016s)
+image 25/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-380875278311955950234827380751048602798_1-284_jpg.rf.860b76ceac575256e6753bb5c445d782.jpg: 416x416 1 Calc, 1 Mass, Done. (0.016s)
+image 26/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-381976643013069766914531749641434314807_1-098_jpg.rf.f009bcdf57da3d078f89c8109ef397f7.jpg: 416x416 1 Calc, 1 Mass, Done. (0.016s)
+image 27/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-383084015312187246035597241651391161847_1-124_jpg.rf.ec9043ea81547e7d7ec2c96ec2fdfd0d.jpg: 416x416 2 Calcs, Done. (0.016s)
+image 28/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-385132842112234370219192252632712589242_1-172_jpg.rf.6ab2aced133e6c518875eb3b25a4b7cf.jpg: 416x416 1 Calc, 1 Mass, Done. (0.016s)
+image 29/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-412935186912567939930947831442475559499_1-093_jpg.rf.1589e31172e4751d7ef7872248a5c864.jpg: 416x416 2 Masss, Done. (0.016s)
+image 30/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-414259873612565136137779949381451878088_1-213_jpg.rf.451247edc5393a5a4c78e6ebbd200d30.jpg: 416x416 1 Mass, Done. (0.016s)
+image 31/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-426578226012353341625938149703656638104_1-118_jpg.rf.f4167262ea9758f9dd46e3b5c2e69847.jpg: 416x416 Done. (0.016s)
+image 32/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-42762912711049730303427014573334305742_1-054_jpg.rf.5ee946d64a5f0cdfde0b0f7bda53913d.jpg: 416x416 Done. (0.016s)
+image 33/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-55224244610875599704160652042845114695_1-166_jpg.rf.7ef365f725794787a1703e13298f8790.jpg: 416x416 1 Calc, 1 Mass, Done. (0.015s)
+image 34/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-57409664311439109642852588912629488901_1-144_jpg.rf.9cb1052f38a835d3b4f9dc8c71f4e888.jpg: 416x416 1 Mass, Done. (0.016s)
+image 35/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-72724605212412925123701405661626433580_1-119_jpg.rf.18ad607bc9646c0314a44eb80fdcc641.jpg: 416x416 3 Masss, Done. (0.016s)
+image 36/36 C:\Users\RDuser-E1\Desktop\retrain_yolo\CBIS-DDSM\test\images\1-3-6-1-4-1-9590-100-1-2-97836244013855014030148215481481073285_1-104_jpg.rf.fddb74c946efd32e363ea0e9c26e15b7.jpg: 416x416 1 Mass, Done. (0.016s)
+Speed: 0.4ms pre-process, 16.7ms inference, 1.4ms NMS per image at shape (1, 3, 416, 416)
+Results saved to runs\detect\exp9
+
+(venv) C:\Users\RDuser-E1\Desktop\retrain_yolo\yolov5>
