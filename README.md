@@ -11,7 +11,7 @@ CADx (Computer Aided System for diagnosis) o CADe (Computer Aided System for Det
 
 En este repositorio se encuentran tres carpetas: Carpeta de Datos, Carpeta de Código y Carpeta de Resultados.
 
-En la carpeta de datos, se recogen varios archivos csv que se han utilizado para asignar etiquetas a fotos.
+En la carpeta de datos, se recogen varios archivos tanto en formato csv como xls, utilizados para asignar etiquetas a fotos.
 Las imágenes del dataset se pueden descargar aquí: https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset
 
 En la carpeta de resultados se encuentran los resultados obtenidos en cada experimento tanto en la parte de detección como en la de diagnóstico. Son muy variados. Podrá ver archivos variados, desde gráficas hasta archivos .txt donde visualizar los logs de ejecución de cada prueba.
