@@ -16,4 +16,6 @@ Las imágenes del dataset se pueden descargar aquí: https://www.kaggle.com/data
 
 En la carpeta de resultados se encuentran los resultados obtenidos en cada experimento tanto en la parte de detección como en la de diagnóstico. Son muy variados. Podrá ver archivos variados, desde gráficas hasta archivos .txt donde visualizar los logs de ejecución de cada prueba.
 
+En la carpeta código se recoge el código utilizado en cada parte, para cada prueba utilizado.
+
 
