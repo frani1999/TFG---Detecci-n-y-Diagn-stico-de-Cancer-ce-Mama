@@ -16,6 +16,9 @@ Las imágenes del dataset se pueden descargar aquí: https://www.kaggle.com/data
 
 En la carpeta de resultados se encuentran los resultados obtenidos en cada experimento tanto en la parte de detección como en la de diagnóstico. Son muy variados. Podrá ver archivos variados, desde gráficas hasta archivos .txt donde visualizar los logs de ejecución de cada prueba.
 
-En la carpeta código se recoge el código python desarrollado para cada prueba realizada. 
+En la carpeta código se recoge el código python desarrollado para cada prueba realizada. Dentro de esta, encontramos:
+  -una carpeta llamada "Detección", que contiene los códigos asociados a la parte de detección del proyecto.
+  -una carpeta llamada "Diagnóstico", que contiene los códigos asociados a la parte de diagnóstico del proyecto.
+  -una carpeta llamada "Otros", que contiene otros códigos que poseen cierta relevancia en la realización del proyecto.
 
 
