@@ -1,0 +1,90 @@
+C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\python.exe C:/Users/RDuser-E1/Desktop/TFG/Diagnosis/masses/SVMmasses.py
+        area  bounding box area  convex area  ...  perimeter  solidity  compactness
+0     108311             150856       126374  ...   278.2578    0.8571       0.1758
+1     132556             190112       149416  ...  2443.3515    0.8872       0.0279
+2     126315             177552       158830  ...  3256.3729    0.7953       0.1497
+3      67345              93620        74724  ...  1612.0103    0.9012       0.3257
+4      12023              30240        18653  ...   955.9565    0.6446       0.1653
+...      ...                ...          ...  ...        ...       ...          ...
+1313   51766              63222        55380  ...  1191.2041    0.9347       0.4584
+1314   30783              46366        36024  ...  1332.0235    0.8545       0.0218
+1315   49588              68362        59237  ...  1908.6631    0.8371       0.1711
+1316   17163              26825        21708  ...    87.3862    0.7906       0.2824
+1317   34505              55272        41515  ...  1251.1179    0.8311       0.0277
+
+[1318 rows x 13 columns]
+       severity
+0     MALIGNANT
+1        BENIGN
+2        BENIGN
+3     MALIGNANT
+4        BENIGN
+...         ...
+1313  MALIGNANT
+1314     BENIGN
+1315     BENIGN
+1316  MALIGNANT
+1317  MALIGNANT
+
+[1318 rows x 1 columns]
+       area  bounding box area  convex area  ...  perimeter  solidity  compactness
+0     81475              97552        84277  ...  1354.6478    0.9668       0.5579
+1     83677             103970        89426  ...  1438.3057    0.9357       0.5083
+2    112940             170553       120871  ...   195.3792    0.9344       0.3718
+3    172413             226100       190453  ...  2547.6642    0.9053       0.3338
+4     44369              73980        56703  ...  1438.1402    0.7825       0.2696
+..      ...                ...          ...  ...        ...       ...          ...
+373   24522              47674        32162  ...  1568.2418    0.7625       0.1253
+374   40262              85504        51566  ...  1762.1728    0.7808       0.1629
+375   40288              72450        51783  ...  1758.9606    0.0778       0.1636
+376   26171              44690        28780  ...   820.8133    0.9093       0.4881
+377   26733              44160        31511  ...  1013.9077    0.8484       0.3268
+
+[378 rows x 13 columns]
+      severity
+0       BENIGN
+1    MALIGNANT
+2       BENIGN
+3    MALIGNANT
+4       BENIGN
+..         ...
+373  MALIGNANT
+374     BENIGN
+375  MALIGNANT
+376     BENIGN
+377     BENIGN
+
+[378 rows x 1 columns]
+AxesSubplot(0.125,0.11;0.62x0.77)
+
+
+KNN
+
+
+C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py:993: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py:993: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+53.56037151702786
+[[173  58]
+ [ 92  55]]
+
+
+SVC
+
+
+55.88235294117647
+[[190  41]
+ [109  38]]
+
+
+Random Forest
+
+
+C:/Users/RDuser-E1/Desktop/TFG/Diagnosis/masses/SVMmasses.py:94: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  model.fit(x_train,y_train)
+42.49201277955272
+[[133  98]
+ [ 82  65]]
+
+Process finished with exit code 0
