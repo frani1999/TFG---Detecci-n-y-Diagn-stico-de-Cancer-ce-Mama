@@ -1,0 +1,118 @@
+C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\python.exe C:/Users/RDuser-E1/Desktop/TFG/Diagnosis/masses/SVMmasses.py
+          area  bounding box area  ...  solidity  compactness
+0     108311.0           150856.0  ...    0.8571       0.1758
+1     132556.0           190112.0  ...    0.8872       0.2790
+2     126315.0           177552.0  ...    0.7953       0.1497
+3      67345.0            93620.0  ...    0.9012       0.3257
+4      12023.0            30240.0  ...    0.6446       0.1653
+...        ...                ...  ...       ...          ...
+1313   51766.0            63222.0  ...    0.9347       0.4584
+1314   30783.0            46366.0  ...    0.8545       0.2180
+1315   49588.0            68362.0  ...    0.8371       0.1711
+1316   17163.0            26825.0  ...    0.7906       0.2824
+1317   34505.0            55272.0  ...    0.8311       0.2770
+
+[1318 rows x 13 columns]
+       severity
+0     MALIGNANT
+1        BENIGN
+2        BENIGN
+3     MALIGNANT
+4        BENIGN
+...         ...
+1313  MALIGNANT
+1314     BENIGN
+1315     BENIGN
+1316  MALIGNANT
+1317  MALIGNANT
+
+[1318 rows x 1 columns]
+         area  bounding box area  convex area  ...  perimeter  solidity  compactness
+0     81475.0            97552.0      84277.0  ...  1354.6478    0.9668       0.5579
+1     83677.0           103970.0      89426.0  ...  1438.3057    0.9357       0.5083
+2    112940.0           170553.0     120871.0  ...  1953.7920    0.9344       0.3718
+3    172413.0           226100.0     190453.0  ...  2547.6642    0.9053       0.3338
+4     44369.0            73980.0      56703.0  ...  1438.1402    0.7825       0.2696
+..        ...                ...          ...  ...        ...       ...          ...
+373   24522.0            47674.0      32162.0  ...  1568.2418    0.7625       0.1253
+374   40262.0            85504.0      51566.0  ...  1762.1728    0.7808       0.1629
+375   40288.0            72450.0      51783.0  ...  1758.9606    0.7780       0.1636
+376   26171.0            44690.0      28780.0  ...   820.8133    0.9093       0.4881
+377   26733.0            44160.0      31511.0  ...  1013.9077    0.8484       0.3268
+
+[378 rows x 13 columns]
+      severity
+0       BENIGN
+1    MALIGNANT
+2       BENIGN
+3    MALIGNANT
+4       BENIGN
+..         ...
+373  MALIGNANT
+374     BENIGN
+375  MALIGNANT
+376     BENIGN
+377     BENIGN
+
+[378 rows x 1 columns]
+AxesSubplot(0.125,0.11;0.62x0.77)
+
+
+KNN
+
+
+C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\neighbors\_classification.py:198: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  return self._fit(X, y)
+26.037735849056602
+[[113 118]
+ [ 78  69]]
+
+
+Logistic Regression
+
+
+C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py:993: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py:993: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+33.9622641509434
+[[166  65]
+ [ 75  72]]
+
+
+SVC
+
+
+C:/Users/RDuser-E1/Desktop/TFG/Diagnosis/masses/SVMmasses.py:108: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  model.fit(x_train,y_train)
+20.212765957446805
+[[190  41]
+ [109  38]]
+
+
+Random Forest
+
+
+29.613733905579398
+[[145  86]
+ [ 78  69]]
+
+
+Decision Tree Clasifier
+
+
+30.991735537190085
+[[136  95]
+ [ 72  75]]
+
+
+GaussianNB
+
+
+C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py:993: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+18.435754189944134
+[[199  32]
+ [114  33]]
+
+Process finished with exit code 0

@@ -56,13 +56,23 @@ C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\python.exe C:/Users/RD
 
 [378 rows x 1 columns]
 AxesSubplot(0.125,0.11;0.62x0.77)
+C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\neighbors\_classification.py:198: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  return self._fit(X, y)
+C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py:993: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
 
 
 KNN
 
 
-C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py:993: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
-  y = column_or_1d(y, warn=True)
+36.56957928802589
+[[113 118]
+ [ 78  69]]
+
+
+Logistic Regression
+
+
 C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py:993: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
   y = column_or_1d(y, warn=True)
 54.248366013071895
@@ -81,10 +91,28 @@ SVC
 Random Forest
 
 
-C:/Users/RDuser-E1/Desktop/TFG/Diagnosis/masses/SVMmasses.py:94: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+C:/Users/RDuser-E1/Desktop/TFG/Diagnosis/masses/SVMmasses.py:108: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
   model.fit(x_train,y_train)
-44.66019417475729
-[[138  93]
- [ 78  69]]
+45.42483660130719
+[[139  92]
+ [ 75  72]]
+
+
+Decision Tree Clasifier
+
+
+C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py:993: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+43.790849673202615
+[[134  97]
+ [ 75  72]]
+
+
+GaussianNB
+
+
+57.68115942028985
+[[199  32]
+ [114  33]]
 
 Process finished with exit code 0

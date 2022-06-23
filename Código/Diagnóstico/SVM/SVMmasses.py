@@ -5,6 +5,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn import svm
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import jaccard_score
 from sklearn.model_selection import GridSearchCV# for tuning parameter
@@ -24,6 +25,8 @@ import matplotlib.pyplot as plt
 #----------------------------Bounding features-------------------------------------
 df_train = pd.read_csv("train_mass_crop_features_bounded.csv")
 df_test = pd.read_csv("test_mass_crop_features_bounded.csv")
+#df_train = pd.read_csv("train_mass_crops_features.csv")
+#df_test = pd.read_csv("test_mass_crops_features.csv")
 
 #Analyzing the data for null values and dropping the rows having an empty value
 #print(df.isnull().sum())
@@ -55,18 +58,31 @@ corr_x_test = x_test.corr()
 
 print(sns.heatmap(corr_x_train))
 ax = sns.heatmap(corr_x_test)
-plt.plot(ax)
-plt.show()
+#plt.plot(ax)
+#plt.show()
 #---------------------------------------------APPLY MACHINE LEARNING MODEL----------------------------------------------
+
 #KNN:
 print("\n\nKNN\n\n")
-#Using the model of LogisticRegression:
-logmodel = LogisticRegression()
+#Using the model of KNeighborsClassifier:
+logmodel = KNeighborsClassifier()
 
 #Training the model and making predictions:
 logmodel.fit(x_train,y_train)
 predictions = logmodel.predict(x_test)
+#Checking for the accuracy score using jaccard_similarity_score:
+accuracy_score = jaccard_score(y_test,predictions, average='binary', pos_label="BENIGN")
+print(accuracy_score*100)
+#Giving a look to the confusion matrix:
+matrix=confusion_matrix(y_test,predictions)
+print(matrix)
 
+print("\n\nLogistic Regression\n\n")
+#Using the model of LogisticRegression:
+logmodel = LogisticRegression()
+#Training the model and making predictions:
+logmodel.fit(x_train,y_train)
+predictions = logmodel.predict(x_test)
 #Checking for the accuracy score using jaccard_similarity_score:
 accuracy_score = jaccard_score(y_test,predictions, average='binary', pos_label="BENIGN")
 print(accuracy_score*100)
@@ -97,3 +113,24 @@ print(accuracy_score*100)
 matrix=confusion_matrix(y_test,predictions)
 print(matrix)
 
+
+print("\n\nDecision Tree Clasifier\n\n")
+model = DecisionTreeClassifier()
+model.fit(x_train,y_train)
+predictions = model.predict(x_test)
+accuracy_score = jaccard_score(y_test,predictions, average='binary', pos_label="BENIGN")
+print(accuracy_score*100)
+#Giving a look to the confusion matrix:
+matrix=confusion_matrix(y_test,predictions)
+print(matrix)
+
+
+print("\n\nGaussianNB\n\n")
+model = GaussianNB()
+model.fit(x_train,y_train)
+predictions = model.predict(x_test)
+accuracy_score = jaccard_score(y_test,predictions, average='binary', pos_label="BENIGN")
+print(accuracy_score*100)
+#Giving a look to the confusion matrix:
+matrix=confusion_matrix(y_test,predictions)
+print(matrix)

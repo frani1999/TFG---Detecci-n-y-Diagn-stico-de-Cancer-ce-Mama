@@ -61,6 +61,16 @@ AxesSubplot(0.125,0.11;0.62x0.77)
 KNN
 
 
+C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\neighbors\_classification.py:198: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  return self._fit(X, y)
+37.096774193548384
+[[115 116]
+ [ 79  68]]
+
+
+Logistic Regression
+
+
 C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py:993: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
   y = column_or_1d(y, warn=True)
 C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py:993: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
@@ -81,10 +91,28 @@ SVC
 Random Forest
 
 
-C:/Users/RDuser-E1/Desktop/TFG/Diagnosis/masses/SVMmasses.py:94: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+C:/Users/RDuser-E1/Desktop/TFG/Diagnosis/masses/SVMmasses.py:108: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
   model.fit(x_train,y_train)
-42.49201277955272
-[[133  98]
- [ 82  65]]
+44.336569579288025
+[[137  94]
+ [ 78  69]]
+
+
+Decision Tree Clasifier
+
+
+39.93288590604027
+[[119 112]
+ [ 67  80]]
+
+
+GaussianNB
+
+
+57.391304347826086
+[[198  33]
+ [114  33]]
+C:\Users\RDuser-E4\AppData\Local\Programs\Python\Python38\lib\site-packages\sklearn\utils\validation.py:993: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
 
 Process finished with exit code 0
