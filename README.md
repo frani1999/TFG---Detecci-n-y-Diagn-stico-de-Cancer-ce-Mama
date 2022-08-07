@@ -19,4 +19,4 @@ En la carpeta código se recoge el código python desarrollado para cada prueba 
 
 # Resultados obtenidos
 
-(https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/My%20CNN%20and%20VGG16/Detection%20Result%20-%20My%20CNN.png)
+![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/My%20CNN%20and%20VGG16/Detection%20Result%20-%20My%20CNN.png)
