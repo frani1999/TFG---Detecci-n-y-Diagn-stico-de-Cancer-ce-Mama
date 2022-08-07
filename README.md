@@ -60,7 +60,11 @@ Masas Red VGG16:
 
 ## Reusltados de Diagnóstico utilizando las técnicas de Machine Learning
 
-| Primer encabezado | Segundo encabezado |
-| ------------- | ------------- |
-| Contenido de la celda  | Contenido de la celda  |
-| Contenido de la celda  | Contenido de la celda  |
+| Técnica utilizada | feature extraction(%) | feature extraction bounded(%) |
+| ------------- | ------------- | ------------- |
+| KNN |  |  |
+| Logistic Regression |  |  |
+| svc |  |  |
+| Random Forest  |  |  |
+| Decision Tree Clasifier |  |  |
+| GaussianNB |  |  |
