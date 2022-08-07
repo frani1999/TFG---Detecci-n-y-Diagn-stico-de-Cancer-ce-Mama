@@ -60,6 +60,17 @@ Masas Red VGG16:
 
 ## Reusltados de Diagnóstico utilizando las técnicas de Machine Learning
 
+Sensibilidad:
+| Técnica utilizada | feature extraction(%) | feature extraction bounded(%) |
+| ------------- | ------------- | ------------- |
+| KNN |  |  |
+| Logistic Regression |  |  |
+| svc |  |  |
+| Random Forest  |  |  |
+| Decision Tree Clasifier |  |  |
+| GaussianNB |  |  |
+
+Especificidad:
 | Técnica utilizada | feature extraction(%) | feature extraction bounded(%) |
 | ------------- | ------------- | ------------- |
 | KNN |  |  |
