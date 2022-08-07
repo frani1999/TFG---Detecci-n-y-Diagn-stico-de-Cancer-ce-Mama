@@ -27,6 +27,22 @@ CNN diseñada:
 Red VGG16:
 ![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/My%20CNN%20and%20VGG16/Detection%20Result%20-%20VGG16.png)
 
+### Detección con YOLOv5
+
+Matriz de confusión:
+![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/YOLOv5/Train/confusion_matrix.png)
+
+Métricas:
+![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/YOLOv5/Train/results.png)
+
+Algunos resultados de ejemplo:
+![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/YOLOv5/Test/test1.jpg)
+![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/YOLOv5/Test/test11.jpg)
+![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/YOLOv5/Test/test19.jpg)
+![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/YOLOv5/Test/test22.jpg)
+![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/YOLOv5/Test/test33.jpg)
+![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/YOLOv5/Test/test5.jpg)
+
 ## Resultados Diagnóstico
 
 Calcificaciones CNN diseñada:
