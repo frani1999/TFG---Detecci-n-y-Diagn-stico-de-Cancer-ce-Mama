@@ -67,7 +67,7 @@ Sensibilidad:
 | Logistic Regression |  |  |
 | svc |  |  |
 | Random Forest  |  |  |
-| Decision Tree Clasifier |  |  |
+| Decision Tree Classifier |  |  |
 | GaussianNB |  |  |
 
 Especificidad:
@@ -77,5 +77,5 @@ Especificidad:
 | Logistic Regression |  |  |
 | svc |  |  |
 | Random Forest  |  |  |
-| Decision Tree Clasifier |  |  |
+| Decision Tree Classifier |  |  |
 | GaussianNB |  |  |
