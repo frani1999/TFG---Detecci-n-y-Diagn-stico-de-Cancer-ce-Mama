@@ -36,6 +36,7 @@ Métricas:
 ![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/YOLOv5/Train/results.png)
 
 Algunos resultados de ejemplo:
+
 ![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/YOLOv5/Test/test1.jpg)
 ![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/YOLOv5/Test/test11.jpg)
 ![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/YOLOv5/Test/test19.jpg)
