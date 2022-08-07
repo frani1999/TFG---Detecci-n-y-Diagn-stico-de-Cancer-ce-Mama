@@ -18,5 +18,5 @@ En la carpeta código se recoge el código python desarrollado para cada prueba 
   -una carpeta llamada "Otros", que contiene otros códigos que poseen cierta relevancia en la realización del proyecto. Dentro de esa carpeta se encuentra una carpeta que se llama MIAS. Esta carpeta contiene los códigos que se utilizaron al principio del proyecto para familiarizarse con las funciones de python y también códigos obsoletos que se usaron en técnicas descartadas para el proyecto. Todos estos códigos se probaron con la base de dats MIAS, que es mas pequeña que la base de datos CBIS-DDSM.
 
 # Resultados obtenidos
-
+## Resultados Detección
 ![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/My%20CNN%20and%20VGG16/Detection%20Result%20-%20My%20CNN.png)
