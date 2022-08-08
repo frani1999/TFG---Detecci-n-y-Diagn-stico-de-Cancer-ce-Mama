@@ -71,7 +71,7 @@ Masas Red VGG16:
 
 ## Reusltados de Diagnóstico utilizando las técnicas de Machine Learning
 
-![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resources/CodeCogsEqn.svg)
+![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resources/CodeCogsEqn.png)
 
 Sensibilidad:
 | Técnica utilizada | feature extraction(%) | feature extraction bounded(%) |
