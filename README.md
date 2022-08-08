@@ -30,9 +30,8 @@ Se han empleado las siguientes técnicas de **Deep Learning**:
 ![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resources/Red%20VGG16.png)
 
 - Reentrenamiento de YOLOv5: Se ha conseguido adaptar el algoritmo de detección de objetos en imágenes a detección de tumores en imágenes mamográficas. Para ello, se han etiquetado manualmente y en el formato de YOLOv5 un subconjunto de mamografías extraido de CBIS-DDSM, para posteriormente realizar el entrenamiento.
-
---Enlace al repositorio de YOLOv5: https://github.com/ultralytics/yolov5
---Tutorial de reentrenamiento de YOLOv5: https://colab.research.google.com/github/roboflow-ai/yolov5-custom-training-tutorial/blob/main/yolov5-custom-training.ipynb#scrollTo=X7yAi9hd-T4B
+  - -Enlace al repositorio de YOLOv5: https://github.com/ultralytics/yolov5
+  - -Tutorial de reentrenamiento de YOLOv5: https://colab.research.google.com/github/roboflow-ai/yolov5-custom-training-tutorial/blob/main/yolov5-custom-training.ipynb#scrollTo=X7yAi9hd-T4B
 
 Por otro lado se han utilizado las siguientes técnicas de **Machine Learning**:
 
