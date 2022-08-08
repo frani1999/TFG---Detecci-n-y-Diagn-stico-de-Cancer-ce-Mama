@@ -49,8 +49,12 @@ Por otro lado se han utilizado las siguientes técnicas de **Machine Learning**:
 CNN diseñada:
 ![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/My%20CNN%20and%20VGG16/Detection%20Result%20-%20My%20CNN.png)
 
+Resultado *Accuracy* en test: 0.84
+
 Red VGG16:
 ![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Detecci%C3%B3n/My%20CNN%20and%20VGG16/Detection%20Result%20-%20VGG16.png)
+
+Resultado *Accuracy* en test: 0.87
 
 ### Detección con **YOLOv5**
 
@@ -74,14 +78,22 @@ Algunos resultados de ejemplo:
 Calcificaciones CNN diseñada:
 ![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Diagn%C3%B3stico/My%20CNN%20and%20VGG16/Calcificaciones/Calc%20Diagnosis%20My%20CNN.png)
 
+Resultado *Accuracy* en test: 0.6
+
 Calcificaciones Red VGG16:
 ![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Diagn%C3%B3stico/My%20CNN%20and%20VGG16/Calcificaciones/Calc%20Diagnosis%20VGG16.png)
+
+Resultado *Accuracy* en test: 0.57
 
 Masas CNN diseñada:
 ![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Diagn%C3%B3stico/My%20CNN%20and%20VGG16/Masas/Diagnosis_My_CNN_masses.png)
 
+Resultado *Accuracy* en test: 0.54
+
 Masas Red VGG16:
 ![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resultados/Diagn%C3%B3stico/My%20CNN%20and%20VGG16/Masas/Diagnosis_VGG16_masses.png)
+
+Resultado *Accuracy* en test: 0.62
 
 ## Resultados de Diagnóstico utilizando las técnicas de Machine Learning
 
