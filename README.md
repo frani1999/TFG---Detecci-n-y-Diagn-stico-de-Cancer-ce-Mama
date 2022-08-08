@@ -21,11 +21,11 @@ En la carpeta código se recoge el código python desarrollado para cada prueba 
 
 Se ha diseñado una Red Neuronal Convolucional que tiene la siguiente arquitectura:
 
-![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resources/Mi%20CNN.png "Arquitectura de la Red Neuronal Convolucional diseñada")
+![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resources/Mi%20CNN.png)
 
 Por otro lado, se ha utilizado la Red VGG16, que posee la siguiente arquitectura:
 
-![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resources/Red%20VGG16.png "Arquitectura de la Red VGG16")
+![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resources/Red%20VGG16.png)
 
 
 # Resultados obtenidos
