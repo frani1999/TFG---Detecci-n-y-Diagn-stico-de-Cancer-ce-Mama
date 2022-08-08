@@ -19,14 +19,24 @@ En la carpeta código se recoge el código python desarrollado para cada prueba 
 
 # Técnicas empleadas
 
-Se ha diseñado una Red Neuronal Convolucional que tiene la siguiente arquitectura:
+Se han empleado las siguientes técnicas de **Deep Learning**:
+
+*Se ha diseño de Red Neuronal Convolucional con la siguiente arquitectura:
 
 ![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resources/Mi%20CNN.png)
 
-Por otro lado, se ha utilizado la Red VGG16, que posee la siguiente arquitectura:
+*Red VGG16, que posee la siguiente arquitectura:
 
 ![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resources/Red%20VGG16.png)
 
+Por otro lado se han utilizado las siguientes técnicas de **Machine Learning**:
+
+* * * K-Nearest Neighbors (KNN) * *
+* * * Logistic Regression * *
+* * * Support Vector Machine (SVM) * *
+* * * Random Forest * *
+* * * Decision Tree Classifier * *
+* * * Naive Bayes Classifier (GaussianNB) * *
 
 # Resultados obtenidos
 
