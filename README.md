@@ -98,19 +98,19 @@ Como en ambos casos se realiza una clasificación binaria, se puede coger lo con
 Sensibilidad:
 | Técnica utilizada | feature extraction(%) | feature extraction bounded(%) |
 | ------------- | ------------- | ------------- |
-| KNN |  |  |
-| Logistic Regression |  |  |
-| svc |  |  |
-| Random Forest  |  |  |
-| Decision Tree Classifier |  |  |
-| GaussianNB |  |  |
+| KNN | 63.43 | 62.91 |
+| Logistic Regression | 45.76 | 46.44 |
+| svc | 44.12 | 44.12 |
+| Random Forest  | 55.20 |  54.64|
+| Decision Tree Classifier | 54.40 | 60.34 |
+| GaussianNB | 42.32 | 42.61 |
 
 Especificidad:
 | Técnica utilizada | feature extraction(%) | feature extraction bounded(%) |
 | ------------- | ------------- | ------------- |
-| KNN |  |  |
-| Logistic Regression |  |  |
-| svc |  |  |
-| Random Forest  |  |  |
-| Decision Tree Classifier |  |  |
-| GaussianNB |  |  |
+| KNN | 73.96 | 74.14 |
+| Logistic Regression | 66.04 | 73.17 |
+| svc | 79.79 | 79.79 |
+| Random Forest  | 71.71 | 69.87 |
+| Decision Tree Classifier | 69.14 | 73.26 |
+| GaussianNB | 81.56 | 81.67 |
