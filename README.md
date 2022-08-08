@@ -60,7 +60,7 @@ Masas Red VGG16:
 
 ## Reusltados de Diagnóstico utilizando las técnicas de Machine Learning
 
-![Alt text](https://latex.codecogs.com/svg.image?\begin{align}&space;&space;&space;&space;Sensibilidad=\frac{Benignos\&space;Acertados}{Total\&space;de\&space;Benignos}&space;*&space;100&space;\%\end{align})
+![Alt text]([https://latex.codecogs.com/svg.image?\begin{align}&space;&space;&space;&space;Sensibilidad=\frac{Benignos\&space;Acertados}{Total\&space;de\&space;Benignos}&space;*&space;100&space;\%\end{align}](https://latex.codecogs.com/svg.image?\begin{align}%20%20%20%20Sensibilidad=\frac{Benignos\%20Acertados}{Total\%20de\%20Benignos}%20*%20100%20\%\end{align}))
 
 Sensibilidad:
 | Técnica utilizada | feature extraction(%) | feature extraction bounded(%) |
