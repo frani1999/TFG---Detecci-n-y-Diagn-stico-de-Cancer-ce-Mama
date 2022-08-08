@@ -31,12 +31,12 @@ Se han empleado las siguientes técnicas de **Deep Learning**:
 
 Por otro lado se han utilizado las siguientes técnicas de **Machine Learning**:
 
-- * * K-Nearest Neighbors (KNN) * *
-- * * Logistic Regression * *
-- * * Support Vector Machine (SVM) * *
-- * * Random Forest * *
-- * * Decision Tree Classifier * *
-- * * Naive Bayes Classifier (GaussianNB) * *
+- *K-Nearest Neighbors (KNN)*
+- *Logistic Regression*
+- *Support Vector Machine (SVM)*
+- *Random Forest*
+- *Decision Tree Classifier*
+- *Naive Bayes Classifier (GaussianNB)*
 
 # Resultados obtenidos
 
