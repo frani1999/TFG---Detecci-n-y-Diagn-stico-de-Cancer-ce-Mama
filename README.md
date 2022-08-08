@@ -17,6 +17,17 @@ En la carpeta código se recoge el código python desarrollado para cada prueba 
   -una carpeta llamada "Diagnóstico", que contiene los códigos asociados a la parte de diagnóstico del proyecto.
   -una carpeta llamada "Otros", que contiene otros códigos que poseen cierta relevancia en la realización del proyecto. Dentro de esa carpeta se encuentra una carpeta que se llama MIAS. Esta carpeta contiene los códigos que se utilizaron al principio del proyecto para familiarizarse con las funciones de python y también códigos obsoletos que se usaron en técnicas descartadas para el proyecto. Todos estos códigos se probaron con la base de dats MIAS, que es mas pequeña que la base de datos CBIS-DDSM.
 
+# Técnicas empleadas
+
+Se ha diseñado una Red Neuronal Convolucional que tiene la siguiente arquitectura:
+
+![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resources/Mi%20CNN.png)
+
+Por otro lado, se ha utilizado la red VGG16, que posee la siguiente arquitectura:
+
+![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resources/Red%20VGG16.png)
+
+
 # Resultados obtenidos
 
 ## Resultados Detección
@@ -60,7 +71,7 @@ Masas Red VGG16:
 
 ## Reusltados de Diagnóstico utilizando las técnicas de Machine Learning
 
-![Alt text](https://latex.codecogs.com/svg.image?\begin{align}%20%20%20%20Sensibilidad=\frac{Benignos\%20Acertados}{Total\%20de\%20Benignos}%20*%20100%20\%\end{align})
+![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resources/CodeCogsEqn.svg)
 
 Sensibilidad:
 | Técnica utilizada | feature extraction(%) | feature extraction bounded(%) |
