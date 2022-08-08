@@ -71,7 +71,11 @@ Masas Red VGG16:
 
 ## Resultados de Diagnóstico utilizando las técnicas de Machine Learning
 
-![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resources/CodeCogsEqn.png)
+Fórmula Sensibilidad:
+![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resources/CodeCogsEqn%20(1).png)
+
+Fórmula Especificidad:
+![Alt text](https://github.com/frani1999/TFG---Detecci-n-y-Diagn-stico-de-Cancer-ce-Mama/blob/main/Resources/CodeCogsEqn%20(2).png)
 
 Sensibilidad:
 | Técnica utilizada | feature extraction(%) | feature extraction bounded(%) |
