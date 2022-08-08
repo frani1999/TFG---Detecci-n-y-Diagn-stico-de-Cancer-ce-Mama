@@ -63,6 +63,28 @@ Masas Red VGG16:
 Sensibilidad:
 | Técnica utilizada | feature extraction(%) | feature extraction bounded(%) |
 | ------------- | ------------- | ------------- |
+| KNN | 36.57 | 37.09 |
+| Logistic Regression | 54.24 | 53.56 |
+| svc | 55.88 | 55.88 |
+| Random Forest  | 44.80 | 45.36 |
+| Decision Tree Classifier | 45.60 | 39.66 |
+| GaussianNB | 57.68 | 57.39 |
+
+Especificidad:
+| Técnica utilizada | feature extraction(%) | feature extraction bounded(%) |
+| ------------- | ------------- | ------------- |
+| KNN |  |  |
+| Logistic Regression |  |  |
+| svc |  |  |
+| Random Forest  |  |  |
+| Decision Tree Classifier |  |  |
+| GaussianNB |  |  |
+
+Como en ambos casos se realiza una clasificación binaria, se puede coger lo contrario:
+
+Sensibilidad:
+| Técnica utilizada | feature extraction(%) | feature extraction bounded(%) |
+| ------------- | ------------- | ------------- |
 | KNN |  |  |
 | Logistic Regression |  |  |
 | svc |  |  |
