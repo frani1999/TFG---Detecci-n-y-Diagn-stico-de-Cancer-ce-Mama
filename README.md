@@ -12,7 +12,7 @@ En la **carpeta de datos**, se recogen varios archivos tanto en formato csv como
 
 En la **carpeta de resultados** se encuentran los resultados obtenidos en cada experimento tanto en la parte de detección como en la de diagnóstico. Son muy variados. Podrá ver diferentes archivos, desde gráficas hasta archivos .txt donde visualizar los logs de ejecución de cada prueba. En concreto para la parte de diagnóstico, hay una carpeta de resultados que nos devuelve YOLOv5 una vez terminada la fase de entrenamiento, y otra tras ejecutar la fase de prueba o testeo.
 
-En la carpeta código se recoge el código python desarrollado para cada prueba realizada. Dentro de esta, encontramos:
+En la **carpeta de código** se recoge el código python desarrollado para cada prueba realizada. Dentro de esta, encontramos:
 
 - Una carpeta llamada *"Detección"*, que contiene los códigos asociados a la parte de detección del proyecto.
 
