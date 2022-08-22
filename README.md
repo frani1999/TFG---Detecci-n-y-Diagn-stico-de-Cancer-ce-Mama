@@ -6,11 +6,11 @@ Tras el estudio de estas técnicas se procede a realizar una comparación de los
 
 # Organización del Repositorio
 
-En este repositorio se encuentran tres carpetas: Carpeta de Datos, Carpeta de Código y Carpeta de Resultados.
+En este repositorio se encuentran tres carpetas: **Carpeta de Datos**, **Carpeta de Código** y **Carpeta de Resultados**.
 
-En la carpeta de datos, se recogen varios archivos tanto en formato csv como xls, utilizados para asignar etiquetas a imágenes o para extraer cierto subconjunto de imágenes. Las imágenes del dataset se pueden descargar aquí: https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset
+En la **carpeta de datos**, se recogen varios archivos tanto en formato csv como xls, utilizados para asignar etiquetas a imágenes o para extraer cierto subconjunto de imágenes. Las imágenes del dataset se pueden descargar aquí: https://www.kaggle.com/datasets/awsaf49/cbis-ddsm-breast-cancer-image-dataset
 
-En la carpeta de resultados se encuentran los resultados obtenidos en cada experimento tanto en la parte de detección como en la de diagnóstico. Son muy variados. Podrá ver diferentes archivos, desde gráficas hasta archivos .txt donde visualizar los logs de ejecución de cada prueba. En concreto para la parte de diagnóstico, hay una carpeta de resultados que nos devuelve YOLOv5 una vez terminada la fase de entrenamiento, y otra tras ejecutar la fase de prueba o testeo.
+En la **carpeta de resultados** se encuentran los resultados obtenidos en cada experimento tanto en la parte de detección como en la de diagnóstico. Son muy variados. Podrá ver diferentes archivos, desde gráficas hasta archivos .txt donde visualizar los logs de ejecución de cada prueba. En concreto para la parte de diagnóstico, hay una carpeta de resultados que nos devuelve YOLOv5 una vez terminada la fase de entrenamiento, y otra tras ejecutar la fase de prueba o testeo.
 
 En la carpeta código se recoge el código python desarrollado para cada prueba realizada. Dentro de esta, encontramos:
 
