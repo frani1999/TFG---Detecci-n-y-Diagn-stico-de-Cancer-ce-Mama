@@ -14,9 +14,9 @@ En la carpeta de resultados se encuentran los resultados obtenidos en cada exper
 
 En la carpeta código se recoge el código python desarrollado para cada prueba realizada. Dentro de esta, encontramos:
 
--una carpeta llamada *"Detección"*, que contiene los códigos asociados a la parte de detección del proyecto.
+- Una carpeta llamada *"Detección"*, que contiene los códigos asociados a la parte de detección del proyecto.
 
--una carpeta llamada *"Diagnóstico"*, que contiene los códigos asociados a la parte de diagnóstico del proyecto.
+- Una carpeta llamada *"Diagnóstico"*, que contiene los códigos asociados a la parte de diagnóstico del proyecto.
 
 -una carpeta llamada *"Otros"*, que contiene otros códigos que poseen cierta relevancia en la realización del proyecto. Dentro de esa carpeta se encuentra una carpeta que se llama **MIAS**. Esta carpeta contiene los códigos que se utilizaron al principio del proyecto para familiarizarse con las funciones de python y también códigos obsoletos que se usaron en técnicas descartadas para el proyecto. Todos estos códigos se probaron con la base de datos **MIAS**, que es mas pequeña que la base de datos **CBIS-DDSM**.
 
